@@ -107,7 +107,7 @@ Built for the **BharatCode Build League (Nov 2026)** to showcase developer tooli
 
 Save (**Ctrl + S**), close Notepad, and push it:
 
-```cmd
+```
 git add README.md
 git commit -m "docs: add architecture diagram, feature breakdown, and quickstart guide"
 git push
