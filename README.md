@@ -110,5 +110,4 @@ Save (**Ctrl + S**), close Notepad, and push it:
 git add README.md
 git commit -m "docs: add architecture diagram, feature breakdown, and quickstart guide"
 git push
-
 ```
