@@ -103,7 +103,6 @@ pytest test_demo_target.py
 
 Built for the **BharatCode Build League (Nov 2026)** to showcase developer tooling utilizing open-source inference stacks.
 
-```
 
 Save (**Ctrl + S**), close Notepad, and push it:
 
