@@ -22,25 +22,25 @@ RepoPilot automates multi-stage code reviews. It scans source files for vulnerab
 ```
 
 [Target Source File / Git Diff]
-│
-▼
-┌───────────────────────┐
-│    RepoPilot CLI      │
-│    (Click + Rich)     │
-└──────────┬────────────┘
-│ (Prompt Pipeline)
-▼
-┌───────────────────────┐
-│ Adaption Inference    │ ◄── (DeepSeek V4 Flash Stack)
-│ Base API / BharatCode │
-└──────────┬────────────┘
-│
-┌───────┴────────┐
-▼                ▼
-[Unified Diff]   [Pytest Suite]
-│                │
-▼                ▼
-(.patch File)    (test_*.py)
+              │
+              ▼
+   ┌───────────────────────┐
+   │    RepoPilot CLI      │
+   │    (Click + Rich)     │
+   └──────────┬────────────┘
+              │ (Prompt Pipeline)
+              ▼
+   ┌───────────────────────┐
+   │ Adaption Inference    │ ◄── (DeepSeek V4 Flash Stack)
+   │ Base API / BharatCode │
+   └──────────┬────────────┘
+              │
+      ┌───────┴────────┐
+      ▼                ▼
+[Unified Diff]    [Pytest Suite]
+      │                │
+      ▼                ▼
+(.patch File)     (test_*.py)
 
 ```
 
